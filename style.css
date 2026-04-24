@@ -1,12 +1,59 @@
-@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Delius&family=Poetsen+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap");
 
 /* ======================== CSS Rule #1 */
 html {
-  background-color: white;
-  padding-left: 20px;
+  background-image: url("background.JPG");
+  background-color: black;
+  margin: 0;
+  padding: 0;
 }
 
 /* ======================== CSS Rule #2 */
 h1 {
-  font-family: "Poetsen One", sans-serif;
+  font-family: "Cinzel", serif;
+  font-size: 3.5em;
+  font-weight: 600;
+  color: #e8e0d0;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+/* ======================== CSS Rule #3 */
+body{
+  background-color:rgba(0,0,0,0.72);
+  padding: 40px 60px 80px 60px;
+}
+
+/* ======================== CSS Rule #4 */
+.highlight {
+  color: #c9a84c;
+}
+
+/* ======================== CSS Rule #5 */
+.film-title{
+  font-family: "Cinzel", serif;
+  font-size: 2.8em;
+  color: #e8e0d0;
+  cursor: pointer;
+  margin: 0;
+}
+
+/* ======================== CSS Rule #6 */
+.film-block {
+  border-top: 1px solid rgba(201, 168, 76, 0.2);
+  padding: 28px 0;
+  margin-top: 40px;
+  width: 33%;
+}
+
+/* ======================== CSS Rule #7 */
+#films {
+  display: flex;
+  gap: 60px;
+}
+
+/* ======================== CSS Rule #8 */
+.film-images img {
+  width: 90%;
 }
